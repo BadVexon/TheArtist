@@ -1,0 +1,108 @@
+[
+  {
+    "PROPER_NAME": "Paint",
+    "NAMES": [
+      "paint"
+    ],
+    "DESCRIPTION": "#yPainting a Color adds it to the #yCanvas."
+  },
+  {
+    "PROPER_NAME": "Red",
+    "NAMES": [
+      "red"
+    ],
+    "DESCRIPTION": "Color. Deals damage."
+  },
+  {
+    "PROPER_NAME": "Darken",
+    "NAMES": [
+      "darken"
+    ],
+    "DESCRIPTION": "Increase the cost and effectiveness of the #yPainting."
+  },
+  {
+    "PROPER_NAME": "Cursed",
+    "NAMES": [
+      "cursed"
+    ],
+    "DESCRIPTION": "Cursed creatures lose HP at the start of their turn."
+  },
+  {
+    "PROPER_NAME": "Purple",
+    "NAMES": [
+      "purple"
+    ],
+    "DESCRIPTION": "Color. Applies #yCursed."
+  },
+  {
+    "PROPER_NAME": "Green",
+    "NAMES": [
+      "green"
+    ],
+    "DESCRIPTION": "Color. Draws cards."
+  },
+  {
+    "PROPER_NAME": "Blue",
+    "NAMES": [
+      "blue"
+    ],
+    "DESCRIPTION": "Color. Grants #yBlock."
+  },
+  {
+    "PROPER_NAME": "Yellow",
+    "NAMES": [
+      "yellow"
+    ],
+    "DESCRIPTION": "Color. Grants [E] . Removed after the first use."
+  },
+  {
+    "PROPER_NAME": "Pink",
+    "NAMES": [
+      "brown"
+    ],
+    "DESCRIPTION": "Color. Grants #yTemporary #yHP."
+  },
+  {
+    "PROPER_NAME": "Aqua",
+    "NAMES": [
+      "aqua"
+    ],
+    "DESCRIPTION": "Color. Applies #yWeak."
+  },
+  {
+    "PROPER_NAME": "Magenta",
+    "NAMES": [
+      "magenta"
+    ],
+    "DESCRIPTION": "Color. Applies #yVulnerable."
+  },
+  {
+    "PROPER_NAME": "Rainbow",
+    "NAMES": [
+      "rainbow"
+    ],
+    "DESCRIPTION": "Color. #yPaints."
+  },
+  {
+    "PROPER_NAME": "Painting",
+    "NAMES": [
+      "painting",
+      "paintings"
+    ],
+    "DESCRIPTION": "Paintings are special cards made from the Canvas."
+  },
+  {
+    "PROPER_NAME": "Chromatic",
+    "NAMES": [
+      "chromatic"
+    ],
+    "DESCRIPTION": "The #yChromatic effect of a card activates if the Canvas contains exactly #b2 #yColors."
+  },
+  {
+    "PROPER_NAME": "Clear",
+    "NAMES": [
+      "clear"
+    ],
+    "DESCRIPTION": "The #yClear effect of a card activates if the Canvas is empty."
+  }
+]

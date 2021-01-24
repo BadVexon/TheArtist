@@ -1,0 +1,12 @@
+{
+  "modid": "TheArtist",
+  "name": "TheArtist",
+  "author_list": ["Vex'd"],
+  "description": "An artist!",
+  "version": "0.1.3",
+  "sts_version": "2.0",
+  "mts_version": "3.8.0",
+  "dependencies": ["basemod", "stslib"],
+  "update_json": ""
+}
+

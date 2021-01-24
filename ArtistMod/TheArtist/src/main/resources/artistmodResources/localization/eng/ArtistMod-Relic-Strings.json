@@ -1,0 +1,23 @@
+{
+  "artistmod:BlueBrush": {
+    "NAME": "Bent Brush",
+    "FLAVOR": "Damaged in a fit of anger.",
+    "DESCRIPTIONS": [
+      "The first time you #yPaint each combat, #yPaint 1 more of that #yColor."
+    ]
+  },
+  "artistmod:BrokenBrush": {
+    "NAME": "Broken Brush",
+    "FLAVOR": "You got angrier and totally broke it.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. At the end of your turn, remove all #yColors on the #yCanvas."
+    ]
+  },
+  "artistmod:FixedBrush": {
+    "NAME": "Repaired Brush",
+    "FLAVOR": "Anger management DOES work!",
+    "DESCRIPTIONS": [
+      "Replaces [oobley]Bent Brush. NL At the start of each combat, #yPaint 2 [oobley]Rainbow."
+    ]
+  }
+}

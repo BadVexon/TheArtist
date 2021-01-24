@@ -1,0 +1,337 @@
+{
+  "artistmod:StrokeStrike": {
+    "NAME": "Striking Stroke",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "artistmod:DaringDefend": {
+    "NAME": "Palette Parry",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "artistmod:DarkenDrawing": {
+    "NAME": "Darken Drawing",
+    "DESCRIPTION": "[#000000]Darken [#000000]the [#000000]Canvas."
+  },
+  "artistmod:PalettePick": {
+    "NAME": "Palette Pick",
+    "DESCRIPTION": "Choose 1 Color to Paint."
+  },
+  "artistmod:BlueBurst": {
+    "NAME": "Blue Burst",
+    "DESCRIPTION": "Gain !B! Block. NL Paint 1 [#303f9f]Blue."
+  },
+  "artistmod:RedRage": {
+    "NAME": "Red Rage",
+    "DESCRIPTION": "Deal !D! damage. NL Paint 1 [#b0120a]Red."
+  },
+  "artistmod:YellowYearning": {
+    "NAME": "Yellow Yearning",
+    "DESCRIPTION": "Gain [E] . NL Paint 1 [#ffeb3b]Yellow."
+  },
+  "artistmod:AquaAnnoyance": {
+    "NAME": "Aqua Annoyance",
+    "DESCRIPTION": "Apply !M! Weak. NL Paint 1 [#26a69a]Aqua."
+  },
+  "artistmod:MagentaMadness": {
+    "NAME": "Magenta Madness",
+    "DESCRIPTION": "Apply !M! Vulnerable. NL Paint 1 [#880e4f]Magenta."
+  },
+  "artistmod:GreenGreed": {
+    "NAME": "Green Greed",
+    "DESCRIPTION": "Draw !M! cards. NL Paint 1 [#42bd41]Green."
+  },
+  "artistmod:BrownBrush": {
+    "NAME": "Pink Paint",
+    "DESCRIPTION": "Gain !M! Temporary_HP. NL Paint 1 [#f0749e]Pink."
+  },
+  "artistmod:PurplePain": {
+    "NAME": "Purple Pain",
+    "DESCRIPTION": "Apply !M! Cursed. NL Paint 1 [#673ab7]Purple."
+  },
+  "artistmod:ColorfulClobber": {
+    "NAME": "Colorful Clobber",
+    "DESCRIPTION": "Deal !D! damage. NL Clear: Paint 1 random Color."
+  },
+  "artistmod:ColorCopy": {
+    "NAME": "Color Copy",
+    "DESCRIPTION": "Choose 1 Color on your Canvas to Paint.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Choose 1 Color on your Canvas to Paint."
+  },
+  "artistmod:ChosenColors": {
+    "NAME": "Chosen Colors",
+    "DESCRIPTION": "Chromatic: Add a copy of the Canvas into your hand."
+  },
+  "artistmod:ArtificialArt": {
+    "NAME": "Abstruse Abstraction",
+    "DESCRIPTION": "Add a copy of the Canvas into your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add a copy of the Canvas into your hand. NL Exhaustive !stslib:ex!."
+  },
+  "artistmod:WatercolorWhap": {
+    "NAME": "Watercolor Wallop",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! cards. NL Discard all non-Painting cards drawn this way."
+  },
+  "artistmod:RadicalRainbows": {
+    "NAME": "Gayness Generator",
+    "DESCRIPTION": "At the end of your turn, Paint 1 [oobley]Rainbow.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the end of your turn, Paint 1 [oobley]Rainbow."
+  },
+  "artistmod:BanefulBucket": {
+    "NAME": "Baneful Bucket",
+    "DESCRIPTION": "Chromatic: Double the amount of Paint on the Canvas. NL Exhaust."
+  },
+  "artistmod:DeepDream": {
+    "NAME": "Pollock's Potluck",
+    "DESCRIPTION": "Paint 1 of each Color. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Paint 1 of each Color. NL Exhaust."
+  },
+  "artistmod:RedReaper": {
+    "NAME": "Ruby Reaper",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Paint !M! [#b0120a]Red. NL Exhaust."
+  },
+  "artistmod:BlueBarrier": {
+    "NAME": "Cerulean Coverage",
+    "DESCRIPTION": "Gain !B! Block.  NL Paint !M! [#303f9f]Blue. NL Exhaust."
+  },
+  "artistmod:GreenGreatness": {
+    "NAME": "Verdant Vainglory",
+    "DESCRIPTION": "Draw cards until your hand is full. NL Paint !M! [#42bd41]Green. NL Exhaust."
+  },
+  "artistmod:YellowYouth": {
+    "NAME": "Coruscating Corona",
+    "DESCRIPTION": "At the end of your turn, Paint 1 [#ffeb3b]Yellow.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the end of your turn, Paint 1 [#ffeb3b]Yellow."
+  },
+  "artistmod:AquaAnger": {
+    "NAME": "Aquamarine Aposematism",
+    "DESCRIPTION": "Apply !M! Weak to ALL enemies. NL Paint 2 [#26a69a]Aqua. NL Exhaust."
+  },
+  "artistmod:MagentaMist": {
+    "NAME": "Fuschia Fugue",
+    "DESCRIPTION": "Apply !M! Vulnerable to ALL enemies. NL Paint 2 [#880e4f]Magenta. NL Exhaust."
+  },
+  "artistmod:BigBrown": {
+    "NAME": "Roseate Rejuvenation",
+    "DESCRIPTION": "Gain !M! Temporary_HP. NL Paint !M! [#f0749e]Pink. NL Exhaust."
+  },
+  "artistmod:ProfoundPurple": {
+    "NAME": "Mauve Malediction",
+    "DESCRIPTION": "Apply !M! Cursed to ALL enemies. NL Paint 3 [#673ab7]Purple. NL Exhaust."
+  },
+  "artistmod:BlackBang": {
+    "NAME": "Combustive Chiaroscuro",
+    "DESCRIPTION": "[#000000]Darken [#000000]the [#000000]Canvas X times. NL Next turn, gain [E] . NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL [#000000]Darken [#000000]the [#000000]Canvas X times. NL Next turn, gain [E] . NL Exhaust."
+  },
+  "artistmod:RainbowReality": {
+    "NAME": "Rainbow Reality",
+    "DESCRIPTION": "Paint 1 [oobley]Rainbow. NL Clear: Paint 2 [oobley]Rainbow instead."
+  },
+  "artistmod:DoubleDemolition": {
+    "NAME": "Double Demolition",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies twice. NL Chromatic: Paint 1 more of both Colors."
+  },
+  "artistmod:RainbowRazor": {
+    "NAME": "Rainbow Razor",
+    "DESCRIPTION": "Deal !D! damage to a random enemy. NL Paint 1 random Color.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to a random enemy. NL Paint 2 random Colors."
+  },
+  "artistmod:RaringRepaint": {
+    "NAME": "Raring Repaint",
+    "DESCRIPTION": "Gain !B! Block. NL Return a Painting from your discard pile to your hand.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Gain !B! Block. NL Return a Painting from your discard pile to your hand."
+  },
+  "artistmod:BrushBash": {
+    "NAME": "Brush Bash",
+    "DESCRIPTION": "Deal !D! damage. NL Paint !M! [#b0120a]Red."
+  },
+  "artistmod:ArtisticAgony": {
+    "NAME": "Cosummate Conflagration",
+    "DESCRIPTION": "Exhaust ALL your Paintings. NL Deal !D! damage to a random enemy for each Painting Exhausted. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Exhaust ALL your Paintings. NL Deal !D! damage to a random enemy for each Painting Exhausted. NL Exhaust."
+  },
+  "artistmod:ChromaCrash": {
+    "NAME": "Chroma Crash",
+    "DESCRIPTION": "Deal !D! damage. Chromatic: Gain [E] and draw 1 card."
+  },
+  "artistmod:PaintbrushPanic": {
+    "NAME": "Paintbrush Panic",
+    "DESCRIPTION": "Paint X random Colors. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Paint X+1 random Colors. NL Exhaust."
+  },
+  "artistmod:ContrastingClash": {
+    "NAME": "Constrasting Clash",
+    "DESCRIPTION": "Paint 1 [#b0120a]Red. NL Paint 1 [#303f9f]Blue.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Paint 1 [#b0120a]Red. NL Paint 1 [#303f9f]Blue."
+  },
+  "artistmod:DualDebuffs": {
+    "NAME": "Dual Debuffs",
+    "DESCRIPTION": "Paint 1 [#26a69a]Aqua. NL Paint 1 [#880e4f]Magenta.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Paint 1 [#26a69a]Aqua. NL Paint 1 [#880e4f]Magenta."
+  },
+  "artistmod:ClearChroma": {
+    "NAME": "Clear Chroma",
+    "DESCRIPTION": "Clear: Paint 1 random Color. NL Chromatic: Paint 1 more of both Colors.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Clear: Paint 1 random Color. NL Chromatic: Paint 1 more of both Colors."
+  },
+  "artistmod:CanvasCatapult": {
+    "NAME": "Canvas Catapult",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust a random card in your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Exhaust a card in your hand."
+  },
+  "artistmod:IndigoIncapitation": {
+    "NAME": "Indigo Incapitation",
+    "DESCRIPTION": "Apply !M! Weak to ALL enemies. NL Clear: Paint 1 [#303f9f]Blue."
+  },
+  "artistmod:RedRazzing": {
+    "NAME": "Red Razzing",
+    "DESCRIPTION": "Apply !M! Vulnerable to ALL enemies. NL Clear: Paint 1 [#b0120a]Red."
+  },
+  "artistmod:PrismaticPain": {
+    "NAME": "Prismatic Puncture",
+    "DESCRIPTION": "Deal !D! damage and draw 1 card for every Color on the Canvas."
+  },
+  "artistmod:VibrantVision": {
+    "NAME": "Vibrant Vision",
+    "DESCRIPTION": "Paint 1 random Color. NL Draw !M! card.",
+    "UPGRADE_DESCRIPTION": "Paint 1 random Color. Draw !M! cards."
+  },
+  "artistmod:EnlightenedEpiphany": {
+    "NAME": "Enlightened Epiphany",
+    "DESCRIPTION": "Add a random card with Paint into your hand. NL It costs 0 this turn. NL Exhaust."
+  },
+  "artistmod:CursedClash": {
+    "NAME": "Cursed Clash",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Cursed."
+  },
+  "artistmod:FantasyForm": {
+    "NAME": "Fantasy Form",
+    "DESCRIPTION": "Whenever you draw a Painting, draw 1 card.",
+    "UPGRADE_DESCRIPTION": "Whenever you draw a Painting, draw 2 cards."
+  },
+  "artistmod:ColoredCollision": {
+    "NAME": "Colored Collision",
+    "DESCRIPTION": "Deal !D! damage. NL Chromatic: Gain [E] ."
+  },
+  "artistmod:MysteriousMasterpiece": {
+    "NAME": "Mysterious Masterpiece",
+    "DESCRIPTION": "Ethereal. NL Permanently add a Painting based on the Canvas to your deck. NL Fleeting.",
+    "UPGRADE_DESCRIPTION": "Ethereal. Grave. NL Permanently add a Painting based on the Canvas to your deck. NL Fleeting."
+  },
+  "artistmod:SuperbSchooling": {
+    "NAME": "Superb Schooling",
+    "DESCRIPTION": "Gain !B! Block. NL Chromatic: Draw !M! cards."
+  },
+  "artistmod:DoubleDraw": {
+    "NAME": "Double Draw",
+    "DESCRIPTION": "Deal !D! damage twice. NL Put a random Painting from your discard pile into your hand.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Deal !D! damage twice. NL Put a random Painting from your discard pile into your hand."
+  },
+  "artistmod:InsaneInspiration": {
+    "NAME": "Insane Inspiration",
+    "DESCRIPTION": "Play the top card of your draw pile. NL If it's a Painting, play this again."
+  },
+  "artistmod:SimpleStudies": {
+    "NAME": "Simple Studies",
+    "DESCRIPTION": "Gain !B! Block. NL Chromatic: Shuffle a copy of the Painting into your draw pile."
+  },
+  "artistmod:HorridHarvest": {
+    "NAME": "Horrid Harvest",
+    "DESCRIPTION": "Deal !D! damage. NL If this deals unblocked damage to a Cursed enemy, Paint 1 [#f0749e]Pink."
+  },
+  "artistmod:SweepingSadness": {
+    "NAME": "Sweeping Sadness",
+    "DESCRIPTION": "Gain !B! Block. NL Apply !M! Cursed."
+  },
+  "artistmod:ResourceRampage": {
+    "NAME": "Vivacious Virescence",
+    "DESCRIPTION": "Paint 1 [#42bd41]Green. NL Paint 1 [#ffeb3b]Yellow.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Paint 1 [#42bd41]Green. NL Paint 1 [#ffeb3b]Yellow."
+  },
+  "artistmod:PinkPurple": {
+    "NAME": "Amaranth Amalgam",
+    "DESCRIPTION": "Paint 1 [#f0749e]Pink. NL Paint 1 [#673ab7]Purple.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Paint 1 [#f0749e]Pink. NL Paint 1 [#673ab7]Purple."
+  },
+  "artistmod:DarkerDanger": {
+    "NAME": "Darker Danger",
+    "DESCRIPTION": "Gain !B! Block. NL Clear: [#000000]Darken [#000000]the [#000000]Canvas."
+  },
+  "artistmod:BluishBludgeon": {
+    "NAME": "Bluish Bludgeon",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Clear: Paint 1 [#303f9f]Blue."
+  },
+  "artistmod:ReddeningRampage": {
+    "NAME": "Reddening Rampage",
+    "DESCRIPTION": "At the end of your turn, Paint 1 [#b0120a]Red.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the end of your turn, Paint 1 [#b0120a]Red."
+  },
+  "artistmod:BlueBrews": {
+    "NAME": "Blue Brews",
+    "DESCRIPTION": "At the end of your turn, Paint 1 [#303f9f]Blue.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the end of your turn, Paint 1 [#303f9f]Blue."
+  },
+  "artistmod:GrowingGreens": {
+    "NAME": "Growing Greens",
+    "DESCRIPTION": "At the end of your turn, Paint 1 [#42bd41]Green.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the end of your turn, Paint 1 [#42bd41]Green."
+  },
+  "artistmod:AccursedAggression": {
+    "NAME": "Accursed Aggression",
+    "DESCRIPTION": "Whenever an enemy attacks you, apply !M! Cursed to it.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever an enemy attacks you, apply !M! Cursed to it."
+  },
+  "artistmod:GloriousGallery": {
+    "NAME": "Glorious Gallery",
+    "DESCRIPTION": "Put all Paintings from your draw pile into your hand. NL Put all Paintings from your discard pile into your hand. NL Exhaust."
+  },
+  "artistmod:PaintProfusion": {
+    "NAME": "Paint Profusion",
+    "DESCRIPTION": "Chromatic: Paint !M! random Color. NL Shuffle 2 copies of the Painting into your draw pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Chromatic: Paint !M! random Colors. NL Shuffle 2 copies of the Painting into your draw pile. NL Exhaust."
+  },
+  "artistmod:AmberAttack": {
+    "NAME": "Amber Attack",
+    "DESCRIPTION": "Deal !D! damage. NL Clear: Paint 2 [#ffeb3b]Yellow."
+  },
+  "artistmod:PurplePurpose": {
+    "NAME": "Purple Purpose",
+    "DESCRIPTION": "Paint 2 [#673ab7]Purple. NL Put a card from your discard pile on top of your draw pile."
+  },
+  "artistmod:ArdentAqua": {
+    "NAME": "Ardent Aqua",
+    "DESCRIPTION": "Paint !M! [#26a69a]Aqua. NL Gain 1 Dexterity. NL Exhaust."
+  },
+  "artistmod:MeanMagenta": {
+    "NAME": "Mean Magenta",
+    "DESCRIPTION": "Paint !M! [#880e4f]Magenta. NL Gain 1 Strength. NL Exhaust."
+  },
+  "artistmod:TreasureTrove": {
+    "NAME": "Treasure Trove",
+    "DESCRIPTION": "At the start of your turn, add a random Uncommon card into your hand."
+  },
+  "artistmod:CrushingCanvas": {
+    "NAME": "Crushing Canvas",
+    "DESCRIPTION": "Deal !D! damage. NL Deals !M! additional damage for ALL your Paintings."
+  },
+  "artistmod:IchorInk": {
+    "NAME": "Ichor Ink",
+    "DESCRIPTION": "Whenever you take unblocked attack damage, Paint !M! random Color.",
+    "UPGRADE_DESCRIPTION": "Innate. Whenever you take unblocked Attack damage, Paint !M! random Color."
+  },
+  "artistmod:PaintBreath": {
+    "NAME": "Hue Huffer",
+    "DESCRIPTION": "At the end of your turn, Paint 1 random Color for each Painting played this turn.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the end of your turn, Paint 1 random Color for each Painting played this turn."
+  },
+  "artistmod:PaintballPelt": {
+    "NAME": "Paintball Pelt",
+    "DESCRIPTION": "Whenever you draw a Painting, deal !M! damage to ALL enemies."
+  },
+  "artistmod:DualDash": {
+    "NAME": "Dual Dash",
+    "DESCRIPTION": "Gain !B! Block. NL Chromatic: Apply 1 Weak."
+  },
+  "artistmod:ShinyShiv": {
+    "NAME": "Shiny Shiv",
+    "DESCRIPTION": "Deal !D! damage. NL Clear: Paint 1 [oobley]Rainbow."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "artistmod:Cursed": {
+    "NAME": "Cursed",
+    "DESCRIPTIONS": [
+      "At the start of your turn, lose #b",
+      "At the start of its turn, loses #b",
+      " HP."
+    ]
+  },
+  "artistmod:AutoPaintPower": {
+    "NAME": "Auto-Painter - ",
+    "DESCRIPTIONS": [
+      "At the end of your turn, #yPaint #b",
+      " #y",
+      "."
+    ]
+  },
+  "artistmod:FantasyFormPower": {
+    "NAME": "Fantasy Form",
+    "DESCRIPTIONS": [
+      "Whenever you draw a #yPainting, draw #b",
+      " card.",
+      " cards."
+    ]
+  },
+  "artistmod:TreasureTrovePower": {
+    "NAME": "Treasure Trove",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b",
+      " random Uncommon cards into your hand.",
+      " random Uncommon card into your hand."
+    ]
+  },
+  "artistmod:IchorInkPower": {
+    "NAME": "Ichor Ink",
+    "DESCRIPTIONS": [
+      "Whenever you receive attack damage, #yPaint #b",
+      " random Color.",
+      " random Colors."
+    ]
+  },
+  "artistmod:PaintBreathPower": {
+    "NAME": "Paint Breathing",
+    "DESCRIPTIONS": [
+      "At the end of your turn, Paint #b",
+      " random Color for each #yPainting played this turn.",
+      " random Colors for each #yPainting played this turn."
+    ]
+  },
+  "artistmod:AccursedAggressionPower": {
+    "NAME": "Accursed Aggression",
+    "DESCRIPTIONS": [
+      "Whenever an enemy attacks you, apply #b",
+      " #yCursed to it."
+    ]
+  },
+  "artistmod:PaintballPeltPower": {
+    "NAME": "Paintball Pelt",
+    "DESCRIPTIONS": [
+      "Whenever you draw a #yPainting, deal #b",
+      " damage to ALL enemies."
+    ]
+  }
+}
