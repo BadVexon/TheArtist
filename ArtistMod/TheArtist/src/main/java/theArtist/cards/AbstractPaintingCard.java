@@ -112,38 +112,38 @@ public class AbstractPaintingCard extends AbstractArtistCard {
     private void reDescription() {
         this.rawDescription = "";
         if (red > 0) {
-            rawDescription += "[#b0120a]Deal !D! [#b0120a]damage. NL ";
+            rawDescription += "[#b0120a]Наносит !D! [#b0120a]урона. NL ";
         }
         if (blue > 0) {
-            rawDescription += "[#303f9f]Gain !B! [#303f9f]Block. NL ";
+            rawDescription += "[#303f9f]Даёт !B! [#303f9f]Защиты. NL ";
         }
         if (greenCards > 0) {
             if (greenCards == 1) {
-                rawDescription += "[#42bd41]Draw " + greenCards + " [#42bd41]card. NL ";
+                rawDescription += "[#42bd41]Возьмите " + greenCards + " [#42bd41]карту. NL ";
             } else {
-                rawDescription += "[#42bd41]Draw " + greenCards + " [#42bd41]cards. NL ";
+                rawDescription += "[#42bd41]Возьмите " + greenCards + " [#42bd41]карт. NL ";
             }
         }
         if (yellowEnergy > 0) {
-            rawDescription += "[#ffeb3b]Gain " + yellowEnergy + " [#ffeb3b]Energy. NL ";
+            rawDescription += "[#ffeb3b]Даёт " + yellowEnergy + " [#ffeb3b]Энергии. NL ";
         }
         if (aquaWeak > 0) {
-            rawDescription += "[#26a69a]Apply " + aquaWeak + " [#26a69a]Weak. NL ";
+            rawDescription += "[#26a69a]Накладывает " + aquaWeak + " [#26a69a]Слабости. NL ";
         }
         if (magentaVuln > 0) {
-            rawDescription += "[#880e4f]Apply " + magentaVuln + " [#880e4f]Vulnerable. NL ";
+            rawDescription += "[#880e4f]Накладывает " + magentaVuln + " [#880e4f]Уязвимости. NL ";
         }
         if (brownTemp > 0) {
-            rawDescription += "[#f0749e]Gain " + brownTemp + " [#f0749e]Temporary [#f0749e]HP. NL ";
+            rawDescription += "[#f0749e]Даёт " + brownTemp + " [#f0749e]Временные [#f0749e]ОЗ. NL ";
         }
         if (purpCurse > 0) {
-            rawDescription += "[#673ab7]Apply " + purpCurse + " [#673ab7]Cursed. NL ";
+            rawDescription += "[#673ab7]Накладывает " + purpCurse + " [#673ab7]Проклятия. NL ";
         }
         if (rainbowPaint > 0) {
             if (rainbowPaint == 1) {
-                rawDescription += "[oobley]Paint " + rainbowPaint + " [oobley]random " + "[oobley]Color. NL ";
+                rawDescription += "[oobley]Нарисуйте " + rainbowPaint + " [oobley]случайный " + "[oobley]Цвет. NL ";
             } else {
-                rawDescription += "[oobley]Paint " + rainbowPaint + " [oobley]random " + "[oobley]Colors. NL ";
+                rawDescription += "[oobley]Нарисуйте " + rainbowPaint + " [oobley]случайных " + "[oobley]Цветов. NL ";
             }
         }
         if (yellow > 0 && red == 0 && blue == 0 && green == 0 && aqua == 0 && magenta == 0 && brown == 0 && purple == 0 && rainbow == 0)
