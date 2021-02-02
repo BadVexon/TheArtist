@@ -50,35 +50,35 @@ public abstract class AbstractArtistCard extends CustomCard {
 
     public List<TooltipInfo> getCustomTooltips() {
         List<TooltipInfo> tips = new ArrayList<>();
-        if (this.rawDescription.toLowerCase().contains("red")) {
-            tips.add(new TooltipInfo("Red", "Color. Deals damage."));
+        if (this.rawDescription.toLowerCase().contains("красный")) {
+            tips.add(new TooltipInfo("Красный", "Цвет. Наносит урон."));
         }
-        if (this.rawDescription.toLowerCase().contains("blue")) {
-            tips.add(new TooltipInfo("Blue", "Color. Grants #yBlock."));
+        if (this.rawDescription.toLowerCase().contains("синий")) {
+            tips.add(new TooltipInfo("Синий", "Цвет. Даёт #yЗащиту."));
         }
-        if (this.rawDescription.toLowerCase().contains("green")) {
-            tips.add(new TooltipInfo("Green", "Color. Draws cards."));
+        if (this.rawDescription.toLowerCase().contains("зелёный")) {
+            tips.add(new TooltipInfo("Зелёный", "Цвет. Добирает карты."));
         }
-        if (this.rawDescription.toLowerCase().contains("yellow")) {
-            tips.add(new TooltipInfo("Yellow", "Color. Grants [E] . Removed after the first use."));
+        if (this.rawDescription.toLowerCase().contains("жёлтый")) {
+            tips.add(new TooltipInfo("Жёлтый", "Цвет. Даёт [E] . Убирается после первого использования."));
         }
-        if (this.rawDescription.toLowerCase().contains("aqua")) {
-            tips.add(new TooltipInfo("Aqua", "Color. Applies #yWeak."));
+        if (this.rawDescription.toLowerCase().contains("зеленовато-голубой")) {
+            tips.add(new TooltipInfo("Зеленовато-голубой", "Цвет. Накладывает #yСлабость."));
         }
-        if (this.rawDescription.toLowerCase().contains("magenta")) {
-            tips.add(new TooltipInfo("Magenta", "Color. Applies #yVulnerable."));
+        if (this.rawDescription.toLowerCase().contains("маджента")) {
+            tips.add(new TooltipInfo("Маджента", "Цвет. Накладывает #yУязвимость."));
         }
-        if (this.rawDescription.toLowerCase().contains("pink")) {
-            tips.add(new TooltipInfo("Pink", "Color. Grants #yTemporary #yHP."));
+        if (this.rawDescription.toLowerCase().contains("розовый")) {
+            tips.add(new TooltipInfo("Розовый", "Цвет. Даёт #yВременные #yОЗ."));
         }
-        if (this.rawDescription.toLowerCase().contains("purple")) {
-            tips.add(new TooltipInfo("Purple", "Color. Applies #yCursed."));
+        if (this.rawDescription.toLowerCase().contains("пурпурный")) {
+            tips.add(new TooltipInfo("Пурпурный", "Цвет. Накладывает #yПроклятие."));
         }
-        if (this.rawDescription.toLowerCase().contains("rainbow")) {
-            tips.add(new TooltipInfo("Rainbow", "Color. #yPaints."));
+        if (this.rawDescription.toLowerCase().contains("радуга")) {
+            tips.add(new TooltipInfo("Радуга", "Цвет. #yРисует."));
         }
-        if (this.rawDescription.toLowerCase().contains("darken")) {
-            tips.add(new TooltipInfo("Darken", "Increase the cost and effectiveness of the #yPainting."));
+        if (this.rawDescription.toLowerCase().contains("затемнение")) {
+            tips.add(new TooltipInfo("Затемнение", "Увеличивает цену и эффективность #yКартины."));
         }
         return tips;
     }
@@ -88,7 +88,7 @@ public abstract class AbstractArtistCard extends CustomCard {
         super.update();
         if (this instanceof AbstractPaintingCard) {
             glowColor = ArtistMod.rainbow.cpy();
-        } else if ((this.rawDescription.contains("Chromatic") && theCanvas.chromatic()) || (this.rawDescription.contains("Clear") && theCanvas.clear())) {
+        } else if ((this.rawDescription.contains("Разноцветный ") && theCanvas.chromatic()) || (this.rawDescription.contains("Чистый") && theCanvas.clear())) {
             glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR;
         } else {
             glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR;
