@@ -77,8 +77,8 @@ public abstract class AbstractArtistCard extends CustomCard {
         if (this.rawDescription.toLowerCase().contains("радуга")) {
             tips.add(new TooltipInfo("Радуга", "Цвет. #yРисует."));
         }
-        if (this.rawDescription.toLowerCase().contains("затемнение")) {
-            tips.add(new TooltipInfo("Затемнение", "Увеличивает цену и эффективность #yКартины."));
+        if (this.rawDescription.toLowerCase().contains("затемнить")) {
+            tips.add(new TooltipInfo("Затемнить", "Увеличивает цену и эффективность #yКартины."));
         }
         return tips;
     }
