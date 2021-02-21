@@ -18,10 +18,10 @@ public class TipRenderPatch {
     public static void Postfix(AbstractRoom __instance, SpriteBatch sb) {
         if ((AbstractDungeon.player instanceof TheArtist || ArtistMod.renderStuff) && AbstractDungeon.getCurrRoom().phase == AbstractRoom.RoomPhase.COMBAT) {
             if (ArtistMod.newHitbox.hb.hovered && !AbstractDungeon.isScreenUp) {
-                String body = "You can #yPaint Colors onto the Canvas. #pClick to drag. #pRight #pClick to preview the #yPainting or add it into your hand.";
+                String body = "Вы можете #yРисовать цвета на Холсте. #pЗажмите #pЛевой кнопкой мыши для перетаскивания. #pНажмите #pПравой кнопкой мыши, чтобы просмотреть #yКартину или добавить её в руку.";
                 TipHelper.renderGenericTip(
                         (float) InputHelper.mX + 60.0F * Settings.scale, (float) InputHelper.mY - 50.0F * Settings.scale,
-                        "Canvas",
+                        "Холст",
                         body
                 );
             }
